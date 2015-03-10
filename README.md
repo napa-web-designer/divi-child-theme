@@ -9,7 +9,7 @@ Divi Child Theme Instructions
     [**Elegant Themes**](http://www.elegantthemes.com/).
 -   Created March 5, 2015
 -   There is a post about this child theme here: [**about Divi child
-    theme**](http://designsbytierney.com/2015/03/divi-child-theme-with-customized-footer-credits)
+    theme**](http://designsbytierney.com/2015/03/divi-child-theme-customized-footer-credits)
 
 Instructions Intro
 ------------------
