@@ -1,13 +1,13 @@
 /*
-Theme Name: CLIENT / WEBSITE NAME, WHATEVER WANTED, WILL SHOW AS SUCH IN WP ADMIN THEMES PANEL
-Description: Child Theme
+Theme Name: Divi Child Theme
+Description: Divi Child Theme
 Author:  David Tierney
 Author URI:  http://designsbytierney.com
-Template: PARENT THEME DIRECTORY NAME CASE-SENSITIVE
+Template: Divi
 Version:  1.0
 */
 
-@import url("../PARENT-THEME-DIRECTORY-NAME/style.css");
+@import url("../Divi/style.css");
  
 /* =Theme customizations
 ------------------------------------------------------- */
