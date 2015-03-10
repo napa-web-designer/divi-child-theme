@@ -1,0 +1,14 @@
+/*
+Theme Name: CLIENT / WEBSITE NAME, WHATEVER WANTED, WILL SHOW AS SUCH IN WP ADMIN THEMES PANEL
+Description: Child Theme
+Author:  David Tierney
+Author URI:  http://designsbytierney.com
+Template: PARENT THEME DIRECTORY NAME CASE-SENSITIVE
+Version:  1.0
+*/
+
+@import url("../PARENT-THEME-DIRECTORY-NAME/style.css");
+ 
+/* =Theme customizations
+------------------------------------------------------- */
+
