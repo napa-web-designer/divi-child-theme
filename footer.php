@@ -1,8 +1,8 @@
-/*
+<!--
  * This Divi child theme file modifies Divi Theme v2.3.1 footer links starting at line 45 below.
  * Author:   David Tierney http://designsbytierney.com
  * Creation date March 5, 2015
-*/
+-->
 
     <?php if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 
