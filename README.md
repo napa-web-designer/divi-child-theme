@@ -1,5 +1,3 @@
-# divi-child-theme
-
 Divi Child Theme Instructions
 =============================
 
@@ -7,23 +5,52 @@ Divi Child Theme Instructions
     [**http://designsbytierney.com**](http://designsbytierney.com)
 -   This is a child theme for the Divi WordPress theme made by
     [**Elegant Themes**](http://www.elegantthemes.com/).
--   Created March 5, 2015
+-   Child theme created March 5, 2015
+-   Last updated January 11, 2017 to version 1.0.2 whereby I changed the
+    method of importing the parent CSS from the @import method to the
+    [enqueque method](https://codex.wordpress.org/Child_Themes), thus a
+    functions file is now included, plus I edited the style.css file and
+    this README.
 -   There is a post about this child theme here: [**about Divi child
     theme**](http://designsbytierney.com/2015/03/divi-child-theme-customized-footer-credits)
+
+Please Note
+-----------
+
+This child theme was originally created for two reasons. First to have a
+child theme for Divi ready to upload. The second was to allow its users
+to customize the footer credits. **However the later versions of Divi
+now include the ability to customize or disable the footer credits
+within the Theme Customizer at Theme Customizer\>Footer\>Bottom Bar.
+This child theme overrides that abilty - so you will NOT be able to use
+that feature in the Divi Theme Customizer with this child theme.** (It
+is a simple change in the footer.php code that you could change if you
+want to change it). The reason I chose to keep this theme with footer
+credits automatically generated is because in most cases this is how I
+and some want it, and as of yet I was not able to figure a way to have
+the year automatically change in the footer credits using the new Divi
+feature in the way I can by using PHP to update the year dynamically. (I
+tried to create a shortcode but the shortcode did not seem to work in
+the Theme Customizer "Edit Footer Credits" field.
 
 Instructions Intro
 ------------------
 
-This child theme contains three files:
+This child theme contains four files:
 
 -   **footer.php** - replace the footer credits with a copyright notice
     for the current year and the Site Title, rather than for Elegant
-    Themes and WordPress. The footer.php was copied and edited from Divi
-    theme version 2.3.1.
+    Themes and WordPress. The footer.php was originally copied and
+    edited from Divi theme version 2.3.1. and has been reviewed to be
+    compatible with Divi version 3.0.27 except that this footer
+    overrides / replaces the newer feature in Divi to customize or
+    disable the footer credits from the Theme Customizer, as explained
+    above.
 -   **screenshot.png** - required - provides an image that represents
     this theme. Can be seen in the WordPress admin Theme panel for this
     theme.
 -   **style.css** - required - allows for you to add custom css.
+-   **functions.php** - imports parent css styles.
 
 You can use this child theme as it is. Just upload the zip file from
 within your admin panel at Appearance\>Themes as a new theme and
@@ -49,7 +76,7 @@ with your own custom name, such as the name of your website. This will
 become the name of your theme as presented in the Theme panel of your
 WordPress admin.
 
-Add your custom CSS to style.css starting at line 15. You can do this
+Add your custom CSS to style.css starting at line 14. You can do this
 via your WordPress admin at Appearance\>Editor.
 
 If you extract the zip file before uploading, change the name of the
